@@ -1,0 +1,17 @@
+BasedOnStyle: Chromium
+AlignTrailingComments: true
+BreakBeforeBraces: Allman
+ColumnLimit: 120
+IndentWidth: 4
+KeepEmptyLinesAtTheStartOfBlocks: false
+ObjCSpaceAfterProperty: true
+ObjCSpaceBeforeProtocolList: true
+PointerBindsToType: false
+SpacesBeforeTrailingComments: 1
+TabWidth: 8
+UseTab: Never
+AlignEscapedNewlinesLeft: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveMacros: true
+PenaltyBreakComment: 1000000000 #this stops the COG comment lines getting broken up which breaks the autogen
+SortIncludes: false
