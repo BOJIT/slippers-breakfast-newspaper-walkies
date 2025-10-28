@@ -133,8 +133,6 @@ static void comms_rx(const uint8_t *mac, const uint8_t *data, int len)
 
     m_msg_tick = millis(); // Record last message time
     m_msg_mask = data[0];
-
-    Serial.printf("GOT: %u\n", data[0]);
 }
 
 static bool comms_init(uint8_t mac[6])
